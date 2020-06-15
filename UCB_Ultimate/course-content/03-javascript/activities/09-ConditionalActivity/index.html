@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Conditional Demo</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+      var Steak = confirm("Do you eat steak?");
+      var Age21 = confirm("Are you 21?")
+      
+ // If they eat steak, they'll get a steak sandiwch!     
+      if (Steak) {
+        document.write("Here's a Steak Sandwich!\n")
+      }
+// If they don't eat steak, they're gonna get tofu!
+      else {
+        document.write("Here's a Tofu Stir-Fry!\n");
+      }
+// If user is Under 21, They don't get Sake!
+      if (!Age21) {
+        document.write("No Sake for you!");
+      }
+
+    </script>
+
+  </body>
+</html>
