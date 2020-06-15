@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+    var FavBands = ["peach tree rascals", "honne", "still woozy", "mild high club", "vansire"]
+    var EnterBand = prompt("What's your favorite band?")
+    var lowerBand = EnterBand.toLowerCase();
+    alert(lowerBand)
+    alert(FavBands.indexOf(lowerBand))
+
+    if (FavBands.indexOf(lowerBand) === -1){
+        alert("Maybe you can check something else out...");
+    }
+    else{
+        alert("Wow you have great taste!");
+    }
+    </script>
+</body>
+</html>
